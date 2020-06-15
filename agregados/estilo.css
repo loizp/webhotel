@@ -1,0 +1,459 @@
+/* ---- Estilos básicos ---------------------------------------------------- */
+body {
+	margin: 0;
+	padding: 0;
+	background: #940c00 url("../imagenes/fondo.png") repeat;
+	font: 70%/160% "verdana", "Times New Roman","Times","Georgia";
+	color: #192666;
+}
+a {
+	text-decoration: none;
+	cursor:pointer;
+}
+a:hover {
+	color:#000000;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+	margin:0;
+	padding:0;
+	height:3px;
+}
+h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding:0;
+}
+h1 {
+	font-size:260%;
+	font-family: "georgia", serif;
+	font-weight:normal;
+}
+h2 {
+	font-size:180%;
+	font-family: "georgia", serif;
+	font-weight:normal;
+	color:#206F07;
+}
+h3 {
+	font-size:120%;
+	font-weight:bold;
+}
+fieldset {
+	border-width:1px;
+	border-color: #474F00
+}
+input, select{
+	border-width: 1px;
+	border-style: solid;
+	font-size:8pt;
+}
+p {
+	text-decoration:none;
+	text-align:justify;
+}
+/* ---- Estilos de Cabecera ---------------------------------------------------- */
+.contenedor {
+	margin: 0;
+	padding: 0;
+	width:788px;
+	margin: 0 auto 0 auto;
+	background:inherit;
+}
+.cabecera {
+	width: 788px;
+	position: relative;
+	height: 222px;
+	margin: 0;
+	padding: 0;
+	background: url("../imagenes/cabecera.png") no-repeat;
+	color: #FFF;
+}
+.busqueda {
+	position: relative;
+	margin: 0;
+	height:50px;
+	padding: 0;
+	margin-left: 43px;
+}
+.busqueda .btnbuscar{
+	background: url("../imagenes/btnbuscar.png") no-repeat left top;
+	height: 24px;
+	width: 24px;
+	border: none;
+	text-indent: -999%;
+	line-height: 1px;
+	margin-top: 20px;
+}
+.busqueda .txtbuscar{
+	height: 18px;
+	width: 155px;
+	border: none;
+	color: #999999;
+	border: none;
+	margin-bottom:2px;
+}
+
+.banner {
+	margin-left: 12px;
+	height: 143px;
+}
+.menu {
+	position: relative;
+	font-weight: bold;
+	font-size: 14px;
+	margin-left:35px;
+}
+.menu a{
+	position: relative;
+	padding: 0;
+}
+.menu1 {
+	color: #ffffff;
+}
+.menu2 {
+	margin-left:38px;
+	color: #ffffff;
+}
+.menu3 {
+ margin-left:45px;
+	color: #ffffff;
+}
+.menu4 {
+	margin-left:38px;
+	color: #ffffff;
+}
+.menu5 {
+	margin-left:30px;
+	color: #ffffff;
+}
+/* ---- Estilos del Cuerpo del inicio ---------------------------------------------------- */
+.cuerpo {
+  	width: 788px;
+  	position: relative;
+  	margin: 0;
+  	height: 584px;
+  	padding: 0;
+  	background: url("../imagenes/cuerpo.png") no-repeat;
+}
+.bienvenida{
+	width: 320px;
+	position: relative;
+	margin: 0;
+	height: 200px;
+	padding: 0;
+	margin-left: 230px;
+}
+.bienvenida p{
+	color:yellow;
+	border: none;
+	font-style:normal;
+	text-align:justify;
+	margin-top: 35px;
+}
+.ingesosistema {
+	float:left;
+	margin-left:125px;
+	width:85px;
+	height:185px;
+}
+.ingesosistema img {
+	border:inherit;
+	width:85px;
+	height:185px;
+}
+.visorfotos{
+	float:left;
+}
+/* ---- Estilos del Contenido del cliente ---------------------------------------------------- */
+.contenido {
+	width: 788px;
+	position: relative;
+	margin: 0;
+	height: 584px;
+	padding: 0;
+	background: url("../imagenes/contenido.png") no-repeat;
+}
+.bann{
+	height:140px;
+	margin-left:10px;
+	padding:0;
+}
+.bann img{
+	width:194px;
+	height:135px;
+	margin:0;
+	padding:0;
+}
+.contengal {
+	width: 788px;
+	position: relative;
+	margin: 0;
+	height: 584px;
+	padding: 0;
+	background: url("../imagenes/contentgaler.png") no-repeat;
+}
+.menugaleria{
+	height:173px;
+	margin-left:70px;
+	padding:0;
+}
+.menugal{
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	color:#1C8F08;
+}
+.menugal img{
+	width:120px;
+	height:80px;
+}
+.bienvgal{
+	margin-left:150px;
+}
+.pbgal{
+	float: left;
+	padding-top:2px;
+	color:#ffffff;
+	width:300px;
+}
+.pbgal p:first-letter, .barrainib p:first-letter {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: .9em;
+  float: left;
+  color:#FFA200;
+}
+
+.pbgal img{
+	width:120px;
+	height:100px;
+	vertical-align:super;
+}
+.resulgaleria{
+	margin-left:133px;
+	padding:0;
+}
+.navgal{
+	width:433px;
+	height:50px;
+}
+.barranav{
+	float: left;
+	padding-top:2px;
+	text-align:center;
+	color:#ffffff;
+	width:144px;
+}
+.barranav a img{
+	padding:2px;
+	
+}
+.imagenreflejo{
+	width:430px;
+	height:330px;
+	padding-left:22px;
+}
+.imagenreflejo img{
+	width:390px;
+	height:285px;
+}
+.contenhotel {
+	width:450px;
+	color:#ffffff;
+	margin-left:125px;
+	padding: 0%;
+}
+.contentserv1{
+	margin-left:15px;
+	padding:0;
+	width:575px;
+	height: 300px;
+}
+.barrainib{
+	float: left;
+	padding:0;
+	color:#ffffff;
+	width: 285px;
+}
+.barrainib img{
+	width: 280px;
+	height: 220px;
+}
+.contentserv2{
+	margin-left:110px;
+	padding:0;
+	width:480px;
+	height: 220px;
+}
+.barrainib2{
+	float: left;
+	padding:0;
+	color:#ffffff;
+	width: 220px;
+}
+.barrainib2 h3{
+	color:#106F00;
+}
+.barrainib2 li{
+	color:#FFA200;
+}
+.formfechareserva{
+	float:left;
+	width: 130px;
+	position: relative;
+	margin: 0;
+	height: 280px;
+	padding: 0;
+	margin-left: 13px;
+}
+.contenido fieldset{
+	color: yellow;
+}
+.formfechareserva label{
+	color: #ffffff;
+}
+.formfechareserva .campo{
+	color: #999999;
+}
+.reservas{
+	width:420px;
+	height:530px;
+	float:left;
+	margin-left: 15px;
+}
+.tarifas{
+	margin:0;
+	color:#ffffff;
+}
+.avisotarifas{
+	text-align:center;
+	color:#000000;
+}
+.ttarifas{
+	width: 380px;
+}
+.ttarifas th, hr{
+	background: #000000;
+	border:0.5px solid #474F00;
+	border-color: #474F00
+}
+.ttarifasini{
+	width: 350px;
+	color:#000000;
+}
+.ttarifasini th{
+	background: #AF0000;
+	border:0.5px solid #000000;
+	border-color: #000000;
+}
+.tresulth th{
+	background: #ffffff;
+	border:0.5px solid #474F00;
+	border-color: #474F00
+}
+.pressreservr img{
+	width:190px;
+	height:120px;
+}
+.pressreservr {
+	color: #ABEF95;
+	text-align:justify;
+}
+.datareserva{
+	width:330px;
+}
+#formcliente, .formclienter div{
+	margin: 0;
+	padding: 0;
+}
+.liform, .liform *, .filareg, .filareg *{
+	margin:0;
+	padding:0;
+}
+.liformhab label, .liform label{
+  width: 130px;
+  float: left;
+  margin-left:32px;
+  color:#FFA200;
+}
+.liform .cajatext{
+	font-size:8pt;
+	color: #009900;
+}
+.liformhab{
+	width:380px;
+}
+.lef{
+	float:left;
+	width:300px;
+	height:500px;
+	margin:0;
+	padding:0;
+
+}
+.liformhab input, .filareg input, .filareg select{
+	color: #009900;
+}
+.freserva2{
+	float:left;
+	width:380px;
+	margin-left:50px;
+	padding:0;
+}
+.contenidoadmin{
+	width: 788px;
+	position: relative;
+	margin: 0;
+	height: 584px;
+	padding: 0;
+	background: url("../imagenes/contenidoadmin.png") no-repeat;
+}
+.contenadmin1{
+	float:left;
+	width: 166px;
+	position: relative;
+	margin: 0;
+	height: 245px;
+	padding: 0;
+	margin-left: 22px;
+	margin-top:33px;
+}
+.contenadmin2{
+	width:363px;
+	height:445px;
+	float:left;
+	margin-left: 28px;
+	margin-top:33px;
+}
+.fregadmin * hr{
+	width:75%;
+}
+.filareg label{
+  width: 130px;
+  float: left;
+  color:#093F00;
+  margin-left:10px;
+}
+.btnreg input{
+	border-style: none;
+	color: #ffffff;
+	background:#8F0808;
+	margin-top:5px;
+}
+.mensaje h3{
+	color:#EF0000;
+}
+/* ---- Estilos del Pie ---------------------------------------------------- */
+.pie {
+	position: relative;
+	width: 788px;
+	height: 24px;
+	margin-bottom: 50px;
+	padding: 0;
+	background:url("../imagenes/pie.png") no-repeat;
+	color: #6685CC;
+}
